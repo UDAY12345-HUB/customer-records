@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@400;500&display=swap');
+
+
+.home{
+    padding: 0.5rem;
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 4vh;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home h1{
+    text-align: center;
+}
+.home .mainTable{
+    display: flex;
+    justify-content: center;
+}
+.home th,
+.home td {
+  border: 2px solid rgb(165, 160, 254); /* Set the cell border and color */
+/* Add padding to cells */
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  align-items: center;
+  
+  padding: 0.7rem 1.4rem;
+
+}
+.home  th {
+  background-color: #f2f2f2;
+  font-size: 1.5rem;
+}
+
+.home .search input{
+    height: 3vh;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    padding: 1.2rem;
+    border-radius: 1.3rem;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.home .pagination{
+    margin-top: 3vh;
+}
+
+.home .pagination button{
+    font-size: 1.6rem;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.home .search button{
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    padding: 0.9rem 1rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.home .search button:hover{
+    transform: translateY(-0.2rem);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+.home .search .sort{
+    margin-left: 1.2rem;
+}
+
+.home select{
+    font-size: 1.4rem;
+    border: none;
+    background: #f2f2f2;
+    cursor: pointer;
+    padding: 1.1rem;
+    outline: none;
+    margin-left: 1rem;
+    font-size: 1.6rem;
+    
+    border-radius: 1.2rem;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}

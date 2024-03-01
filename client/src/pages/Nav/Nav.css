@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@400;500&display=swap');
+
+.home-container nav {
+    background: rgb(179, 91, 199);
+    border-radius: 0.4rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 4vh;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+}
+
+.home-container nav ul {
+    display: flex;
+}
+
+.home-container nav ul li {
+
+    list-style-type: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.home-container nav ul li:hover {
+    animation: shake 0.2s 1;
+    transition: 0.5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+
+        transform: translateX(5px);
+    }
+}
+
+nav li {
+    margin: 0 4rem;
+}
